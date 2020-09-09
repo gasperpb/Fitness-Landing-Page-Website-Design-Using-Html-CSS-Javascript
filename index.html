@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACADEMIA BOA FORMA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <header>
+
+            <a href="#" class="logo">Treinamento </a>
+            <div class="toggleMenu" onclick="toggleMenu()"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a>
+                    <li><a href="#">Sobre</a>
+                        <li><a href="#">Treinamento</a>
+                            <li><a href="#">Blog</a>
+                                <li><a href="#">Contatos</a>
+                                </li>
+                                </a>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="contentBx">
+                <h2>Construção de um corpo perfeito, com uma mente limpa</h2>
+                <p>A musculação é um tipo de exercício realizado com pesos de diversas cargas, amplitude e tempo de contração, o que faz dela uma atividade física indicada para pessoas de diversas idades e com diferentes objetivos.</p>
+                <p> <strong>1. Melhora a postura corporal</strong> A prática de musculação fortalece a musculatura que sustenta a coluna, melhorando a postura e diminuindo as dores nas costas por exemplo.</p>
+                <p> A prática da musculação é vista por muitos apenas como uma maneira de aumentar a massa muscular, no entanto esse tipo de atividade física possui inúmeros benefícios, sendo inclusive capaz de combater a depressão, por exemplo. Além disso,
+                    a musculação melhora o condicionamento cardiorrespiratório, aumenta a densidade óssea e garante mais disposição física.</p>
+                <p>Diminui o risco de diabetes O risco de diabetes pode ser diminuído com a prática da musculação porque o organismo passa utilizar a glicose circulante como fonte de energia e o açúcar que se encontra em excesso no sangue passa a ser armazenado
+                    na forma de glicogênio, que é utilizado em outros processos metabólicos, por exemplo.</p>
+                <a href="#">Get started</a>
+            </div>
+        </div>
+        <div>
+            <ul class="sci">
+                <li>
+                    <a href="#"><img src="facebook.png"></a>
+                    <a href="#"><img src="twitter.png"></a>
+                    <a href="#"><img src="instagram.png"></a>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+    <script type="text/javascript">
+        function toggleMenu() {
+            const toggleMenu = document.querySelector('.toggleMenu');
+            const navigation = document.querySelector('.navigation');
+            toggleMenu.classlist.toggle('active');
+            navigation.classlist.toggle('active');
+        }
+    </script>
+
+</body>
+
+</html>
